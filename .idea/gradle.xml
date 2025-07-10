@@ -17,12 +17,37 @@
         </compositeConfiguration>
         <option name="testRunner" value="CHOOSE_PER_TEST" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/buildSrc" />
+            <option value="$PROJECT_DIR$/core" />
+            <option value="$PROJECT_DIR$/core/analytics" />
+            <option value="$PROJECT_DIR$/core/config" />
+            <option value="$PROJECT_DIR$/core/config/api" />
+            <option value="$PROJECT_DIR$/core/config/impl" />
+            <option value="$PROJECT_DIR$/core/lifecycle" />
+            <option value="$PROJECT_DIR$/core/lifecycle/api" />
+            <option value="$PROJECT_DIR$/core/lifecycle/impl" />
+            <option value="$PROJECT_DIR$/core/logging" />
+            <option value="$PROJECT_DIR$/core/logging/api" />
+            <option value="$PROJECT_DIR$/core/logging/impl" />
+            <option value="$PROJECT_DIR$/core/models" />
+            <option value="$PROJECT_DIR$/core/network" />
+            <option value="$PROJECT_DIR$/core/serialization" />
+            <option value="$PROJECT_DIR$/core/theme" />
+            <option value="$PROJECT_DIR$/core/time" />
+            <option value="$PROJECT_DIR$/core/time/api" />
+            <option value="$PROJECT_DIR$/core/time/impl" />
+            <option value="$PROJECT_DIR$/feature" />
+            <option value="$PROJECT_DIR$/feature/posts" />
+            <option value="$PROJECT_DIR$/feature/posts/api" />
+            <option value="$PROJECT_DIR$/feature/posts/impl" />
+            <option value="$PROJECT_DIR$/feature/share" />
+            <option value="$PROJECT_DIR$/feature/share/api" />
+            <option value="$PROJECT_DIR$/feature/share/impl" />
           </set>
         </option>
       </GradleProjectSettings>

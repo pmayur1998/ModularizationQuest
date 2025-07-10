@@ -49,6 +49,24 @@ kotlin {
 }
 
 dependencies {
+    implementation(project(":core:models"))
+    implementation(project(":core:theme"))
+    implementation(project(":core:analytics"))
+    implementation(project(":core:network"))
+    implementation(project(":core:serialization"))
+    implementation(project(":core:config:api"))
+    implementation(project(":core:config:impl"))
+    implementation(project(":core:logging:api"))
+    implementation(project(":core:logging:impl"))
+    implementation(project(":core:lifecycle:api"))
+    implementation(project(":core:lifecycle:impl"))
+    implementation(project(":core:time:api"))
+    implementation(project(":core:time:impl"))
+
+    implementation(project(":feature:posts:api"))
+    implementation(project(":feature:posts:impl"))
+    implementation(project(":feature:share:api"))
+    implementation(project(":feature:share:impl"))
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
